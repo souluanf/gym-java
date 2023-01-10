@@ -1,0 +1,12 @@
+server.port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gym?useTimezone=true&serverTimezone=UTC&useLegacyDate
+    username: gym
+    password: gym123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
